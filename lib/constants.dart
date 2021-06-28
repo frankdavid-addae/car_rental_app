@@ -1,4 +1,32 @@
 import 'package:flutter/material.dart';
 
-const kPrimaryColor = Color(0xFF7033FF);
-const kPrimaryColorShadow = Color(0xFFF1EBFF);
+const kMultiplier = 0.0012;
+const kMultiplierHalf = 0.0006;
+const kFS10 = 10.0 * kMultiplier;
+const kFS11 = 11.0 * kMultiplier;
+const kFS12 = 12.0 * kMultiplier;
+const kFS13 = 13.0 * kMultiplier;
+const kFS14 = 14.0 * kMultiplier;
+const kFS16 = 16.0 * kMultiplier;
+const kFS17 = 17.0 * kMultiplier;
+const kFS18 = 18.0 * kMultiplier;
+const kFS20 = 20.0 * kMultiplier;
+const kFS24 = 24.0 * kMultiplier;
+const kFS30 = 30.0 * kMultiplier;
+const kFS34 = 34.0 * kMultiplier;
+
+const kPrimaryColor = Color(0xFF23414E);
+const kPrimaryColorShadow = Color(0xFF87BEC9);
+// const kPrimaryColorShadow = Color(0xFFF1EBFF);
+const kBlackColor = Color(0xFF000000);
+const kLicoriceBlackColor = Color(0xFF010101);
+const kFogGreyColor = Color(0xFFE3E4E6);
+const kCloudyGreyColor = Color(0xFFD0D3D8);
+const kMetalGreyColor = Color(0xFFA8A9AB);
+const kMushroomGreyColor = Color(0xFFDAD3CB);
+const kGrandmaGreyColor = Color(0xFFC5C6C8);
+const kKoalaGreyColor = Color(0xFFA0A1A3);
+const kCharcoalGreyColor = Color(0xFF5F6062);
+const kDolphinGreyColor = Color(0xFFB0B8C3);
+const kSharkGreyColor = Color(0xFF98A1AA);
+const kSlateGreyColor = Color(0xFF465967);

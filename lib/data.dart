@@ -60,6 +60,17 @@ List<Car> getCarList() {
       ],
     ),
     Car(
+      'Acura',
+      'MDX 2020',
+      2200,
+      'Monthly',
+      [
+        'assets/images/acura_0.png',
+        'assets/images/acura_1.png',
+        'assets/images/acura_2.png'
+      ]
+    ),
+    Car(
       'Chevrolet',
       'Camaro',
       3400,
@@ -149,7 +160,7 @@ List<Dealer> getDealerList() {
     Dealer(
       'Tesla', 
       89, 
-      'assets/images/tesla.png'
+      'assets/images/tesla.jpg'
     ),
   ];
 }
